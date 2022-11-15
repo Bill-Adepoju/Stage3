@@ -47,3 +47,13 @@ body{
   line-height: 35px;
   padding-bottom: 3rem;
 }
+
+.mid-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.63rem 6.25rem;
+  gap: 16.5rem;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  margin-top: 4.18rem;
+}
