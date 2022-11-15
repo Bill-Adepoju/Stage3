@@ -3,6 +3,7 @@ import Hero from "./Components/Hero"
 import Midlogo from "./Components/Midlogo"
 import Places from "./Components/Places"
 import Nfts from "./Components/Nfts"
+import Footer from "./Components/Footer"
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Midlogo />
       <Places />
       <Nfts />
+      <Footer />
       
     </div>
   )

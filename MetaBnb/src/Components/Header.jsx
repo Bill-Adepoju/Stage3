@@ -20,7 +20,7 @@ export default function Header(){
             </div>
 
             <div className="connect-wallet">
-                <button>connect wallet</button>
+                <button className="connect-button">Connect wallet</button>
             </div>
         </section>
     )

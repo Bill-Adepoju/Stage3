@@ -18,6 +18,7 @@ export default function Hero(){
                 <div className="hero-searchbar">
                     <form>
                         <input
+                            className="searchbar"
                             type="text"
                             placeholder="Search for Location"
                             onChange={handleChange}
