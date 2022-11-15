@@ -57,3 +57,10 @@ body{
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   margin-top: 4.18rem;
 }
+
+.Nft{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
