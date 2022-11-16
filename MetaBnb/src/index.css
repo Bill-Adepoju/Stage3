@@ -403,12 +403,14 @@ body{
     display: flex;
     align-items: center;
   }
-  .Header-section, .header-nav-elements{
+  .Header-section{
     flex-direction: column;
+    gap: 3rem;
   }
   .hero-section{
     padding: 7.8rem 4rem 0;
-    flex-direction: column-reverse;
+    align-items: center;
+    /* flex-direction: column-reverse; */
   }
 
   .word-side{
@@ -426,7 +428,7 @@ body{
   }
 
   .hero-image{
-    width: 17rem;
+    width: 18rem;
   }
 
   .mid-logos{
@@ -458,12 +460,12 @@ body{
   
 .footer-rows{
   flex-direction: column;
-  gap: 8rem;
+  gap: 4rem;
   /* align-items: center; */
 }
 
 .footer-links{
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 8rem;
   align-items: center;
 }
