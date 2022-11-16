@@ -21,7 +21,9 @@ export default function Header(){
             <div className="header-nav">
                 <ul className="header-nav-elements">
                     <li>Home</li>
-                    <li>Place to stay</li>
+                    <li>
+                        <a className="header-links" href="/placetostay">Place to stay</a>
+                    </li>
                     <li>NFTs</li>
                     <li>Communities</li>
                 </ul>
