@@ -1,8 +1,19 @@
 import Header from "./Header"
 import setting from "../images/setting.svg"
-
+import Data2 from "./Data2"
+import Cardtostay from "./Cardtostay"
+import Footer from "./Footer"
 
 export default function Placetostay(){
+
+    const cardData = Data2.map(function(info){
+        return <Cardtostay
+          key={info.id}
+          {...info}
+        />
+      })
+
+
     return(
         <section>
             <Header />
@@ -22,6 +33,10 @@ export default function Placetostay(){
                     <img src={setting} alt="set" />
                 </div>
             </div>
+            <section className="cardlist places-cards">
+                {cardData}
+            </section>
+            <Footer />
         </section>
     )
 }

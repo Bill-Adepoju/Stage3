@@ -250,14 +250,16 @@ body{
   font-weight: 700;
   font-size: 3rem;
   line-height: 3.75rem;
+  text-align: center;
   color: #000000;
 }
 
 .cardlist{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1.5rem;
-  margin: 2.69rem 0 3.3rem;
+  gap: 1rem;
+  margin: 2.69rem 6.25rem 3.3rem;
+
 }
 
 .card{
@@ -319,4 +321,151 @@ body{
   border: 1px solid #B4B4B4;
   border-radius: 0.5rem;
   padding: 0.75rem;
+}
+
+
+/* mobiile responsiveness */
+@media only screen and (min-width : 360px) and (max-width : 440px){
+  .header-images{
+    display: flex;
+    align-items: center;
+  }
+  .Header-section, .header-nav-elements{
+    flex-direction: column;
+  }
+  .hero-section{
+    padding: 7.8rem 4rem 0;
+    flex-direction: column-reverse;
+  }
+
+  .word-side{
+    inline-size: 16rem;
+  }
+  .searchbar{
+    width: 10rem;
+    border-radius: 0;
+    
+  }
+  
+  .search-button{
+    padding: 1.06rem 3.55rem;
+    border-radius: 0;
+  }
+
+  .hero-image{
+    width: 17rem;
+  }
+
+  .mid-logos{
+    flex-direction: column;
+    gap: 8rem;
+  }
+
+  .cardlist{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 2.69rem 3.7rem 3.3rem;
+  
+  }
+
+  .Nft{
+    flex-direction: column;
+  }
+
+  .Nft-word{
+    inline-size: 20rem;
+    overflow-wrap: break-word;
+  }
+
+  .nft-image-side{
+    width: 22rem;
+  }
+
+  
+.footer-rows{
+  flex-direction: column;
+  gap: 8rem;
+  /* align-items: center; */
+}
+
+.footer-links{
+  flex-direction: column;
+  gap: 8rem;
+  align-items: center;
+}
+
+}
+
+/* Tablet view */
+@media only screen and (min-width : 650px) and (max-width : 900px){
+  .header-images{
+    display: flex;
+    align-items: center;
+  }
+  .Header-section, .header-nav-elements{
+    flex-direction: column;
+  }
+  .hero-section{
+    padding: 7.8rem 4rem 0;
+    flex-direction: column-reverse;
+  }
+
+  .word-side{
+    inline-size: 16rem;
+  }
+  .searchbar{
+    width: 10rem;
+    border-radius: 0;
+    
+  }
+  
+  .search-button{
+    padding: 1.06rem 3.55rem;
+    border-radius: 0;
+  }
+
+  .hero-image{
+    width: 17rem;
+  }
+
+  .mid-logos{
+    flex-direction: column;
+    gap: 8rem;
+  }
+
+  .cardlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 2.69rem 3.7rem 3.3rem;
+  
+  }
+
+  .Nft{
+    flex-direction: column;
+  }
+
+  .Nft-word{
+    inline-size: 20rem;
+    overflow-wrap: break-word;
+  }
+
+  .nft-image-side{
+    width: 22rem;
+  }
+
+  
+.footer-rows{
+  flex-direction: column;
+  gap: 8rem;
+  /* align-items: center; */
+}
+
+.footer-links{
+  flex-direction: column;
+  gap: 8rem;
+  align-items: center;
+}
+
 }
