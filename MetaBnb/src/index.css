@@ -7,6 +7,8 @@
 
 body{
   margin: 1px;
+  position: relative;
+  z-index: 1;
 }
 .Header-section{
   display: flex;
@@ -182,4 +184,51 @@ body{
   font-weight: 400;
   font-size: 14px;
   line-height: 35px;
+}
+
+.conect-header{
+  display: flex;
+  align-items: center;
+  gap: 20.6rem;
+  padding: 1.5rem 2rem;
+}
+
+.connect-wallet-button{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 2rem;
+  padding: 0.75rem 1.25rem;
+  width: 33.5rem;
+  border: 1px solid #CFD8DC;
+  border-radius: 0.75rem;
+}
+
+.connect-paragraph{
+  padding: 2rem 0 1rem 2rem;
+}
+
+.metamask-button{
+  margin-bottom: 1rem;
+}
+
+.walletconnect-button{
+  margin-bottom: 2rem;
+}
+
+.wallet-logo{
+  margin-right: auto;
+}
+
+.x-button:hover{
+  cursor: pointer;
+}
+
+.connect-wallet-section{
+  position: absolute;
+  z-index: 2;
+  top: 14rem;
+  left: 30rem;
+  background: white;
+  border-radius: 1rem;
 }

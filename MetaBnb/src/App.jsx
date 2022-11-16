@@ -5,6 +5,7 @@ import Places from "./Components/Places"
 import Nfts from "./Components/Nfts"
 import Footer from "./Components/Footer"
 
+
 function App() {
   
 

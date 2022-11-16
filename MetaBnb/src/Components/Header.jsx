@@ -1,7 +1,15 @@
 import homeicon from "../images/Home.png"
 import logo from "../images/logo.png"
+import {useState} from 'react';
+import ConnectWallet from "./ConnectWallet"
 
 export default function Header(){
+
+    const [isShown, setIsShown] = useState(false);
+
+    const handleClick = event => {
+        setIsShown(current => !current);
+      };
 
     return(
         <section className="Header-section">
@@ -20,8 +28,10 @@ export default function Header(){
             </div>
 
             <div className="connect-wallet">
-                <button className="connect-button">Connect wallet</button>
+                <button onClick={handleClick} className="connect-button">Connect wallet</button>
             </div>
+
+            { isShown && <ConnectWallet/>}
         </section>
     )
     
