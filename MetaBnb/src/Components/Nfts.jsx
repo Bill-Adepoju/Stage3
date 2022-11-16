@@ -9,7 +9,7 @@ export default function Nfts(){
                 <button className="nft-button">Learn more</button>
             </div>
             <div  className="nft-image-side">
-                <img src={NftImage} alt="image" />
+                <img className="nft-image" src={NftImage} alt="image" />
             </div>
         </section>
     )

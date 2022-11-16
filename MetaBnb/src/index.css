@@ -97,6 +97,12 @@ body{
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   color: white;
   padding: 6.25rem;
+  gap: 7rem;
+}
+
+.Nft-word{
+  inline-size: 30rem;
+  overflow-wrap: break-word;
 }
 
 .Nft-header{
@@ -106,15 +112,74 @@ body{
 }
 
 .nft-paragraph{
-  
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 2.19rem;
+  margin-top: 2.19rem;
+}
+
+.nft-image-side{
+  width: 44rem;
+}
+
+.nft-image{
+  width: 100%;
+}
+
+.nft-button{
+  margin-top: 3.6rem;
+  padding: 0.88rem 2.06rem;
+  color: #A02279;
+  border-radius: 0.5rem;
+  border: 1px;
 }
 
 .footer-wrap{
   background: #1D1D1E;
   color: white;
+  padding: 3.63rem 13rem 2.3rem 7rem;
 
 }
 
 .footer-rows{
   display: flex;
+  gap: 11.7rem;
+  /* align-items: center; */
+}
+
+.footer-links{
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+}
+
+
+
+.meta-img-footer{
+  margin-bottom: 6rem;
+}
+
+.social-logos{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3.44rem;
+}
+
+.footer-headers{
+  margin-bottom: 1.44rem;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  inline-size: 5rem;
+
+
+}
+
+.footer-element{
+  margin-bottom: 1rem;
+  inline-size: 5rem;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
 }
