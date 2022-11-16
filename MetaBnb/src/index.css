@@ -470,4 +470,18 @@ body{
   align-items: center;
 }
 
+.place-category{
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-list{
+  gap: 1.5rem;
+ 
+}
+
+.location-setting{
+  width: 15rem;
+}
+
 }
