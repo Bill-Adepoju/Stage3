@@ -232,3 +232,7 @@ body{
   background: white;
   border-radius: 1rem;
 }
+
+.card-details1, .card-details2{
+  display: flex;
+}
