@@ -233,6 +233,60 @@ body{
   border-radius: 1rem;
 }
 
+.inspiration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.6rem;
+  
+}
+
+.places-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  color: #000000;
+}
+
+.cardlist{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  margin: 2.69rem 0 3.3rem;
+}
+
+.card{
+  position: relative;
+  z-index: 1;
+  border: 1px solid #D7D7D7;
+  border-radius: 0.93rem;
+  width: 18.25rem;
+  padding: 1rem;
+}
 .card-details1, .card-details2{
   display: flex;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.8rem;
+  color: #434343;
+}
+
+.card-details1{
+  gap: 6.2rem;
+  margin-bottom: 0.63rem;
+}
+.card-details2{
+  gap: 1.5rem;
+  margin-bottom: 0.56rem;
+}
+
+.price{
+  font-weight: 700;
+}
+
+.heart-badge{
+  position: absolute;
+  z-index: 2;
+  top: 1.3rem;
+  left: 15rem;
 }

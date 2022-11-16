@@ -1,8 +1,9 @@
-
+import heart from "../images/heart.png"
 
 export default function Card(props){
     return(
         <section className="card">
+            <img src={heart} alt="fav" className="heart-badge" />
             <div className="card-img">
                 <img src={`images/${props.coverImg}`} alt="image" className="cardImage"/>
             </div>

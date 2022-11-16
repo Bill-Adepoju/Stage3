@@ -24,7 +24,10 @@ function App() {
       <Hero />
       <Midlogo />
       <Places />
-      {cardData}
+      <section className="cardlist">
+        {cardData}
+      </section>
+      
       <Nfts />
       <Footer />
       
